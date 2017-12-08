@@ -76,6 +76,8 @@ public class LoginSignupScreen {
 		password.setFont(new Font("Arial", Font.PLAIN, 18));
 		password.setBounds(278, 211, 160, 30);
 		frame.getContentPane().add(password);
+		
+		frame.repaint();
 	}
 	
 	class SigninActionListener implements ActionListener
